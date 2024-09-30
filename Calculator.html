@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Calculator.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    
+    <table border="1" >
+      
+        <tr ><td id="values" colspan="4" style="background-color: aqua; color: black; font-weight: bolder;text-align: end;"></td></tr>
+        <tr>
+            <td id="td1" onclick="GetValue()">9</td>
+            <td id="td2" onclick="GetValue1()">8</td>
+            <td id="td3" onclick="GetValue2()">7</td>
+            <td onclick="Clear()" >Clear</td>
+        </tr>
+
+        <tr>
+            <td id="td4" onclick="GetValue3()" >4</td>
+            <td id="td5" onclick="GetValue4()">5</td>
+            <td id="td6" onclick="GetValue5()">6</td>
+            <td onclick="Del()" >Del</td>
+        </tr>
+        <tr>
+        <td  id="td7" onclick="GetValue6()" >1</td>
+        <td  id="td8" onclick="GetValue7()" >2</td>
+        <td  id="td9" onclick="GetValue8()" >3</td>
+        <td onclick="Multiplication()" id="mul" >*</td>
+    </tr>
+    <tr>
+        <td id="td10" onclick="GetValue9()">0</td>
+        <td id="td11" onclick="GetValue10()">.</td>
+        <td onclick="Addition()"  id="add" >+</td>
+        <td onclick="Substraction()" id="sub" >-</td>
+    </tr>
+    <tr>
+        <td id="div" onclick="Division()" >/</td>
+        <td onclick="Calc()" style="background-color: green; font-weight: bolder; text-align: center;" colspan="3">=</td>
+       
+        
+    </tr>
+</table>
+<script src="./Calculator.js"></script>
+</body>
+</html>
